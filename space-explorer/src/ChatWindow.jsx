@@ -18,7 +18,7 @@ function ChatWindow({ isOpen, onClose }) {
 
     try {
         // Send message to the Node.js backend server
-        const response = await fetch('http://localhost:3001/api/chat', {
+        const response = await fetch('https://nasa-25zp.onrender.com/api/chat', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
