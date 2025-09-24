@@ -7,8 +7,7 @@ It empowers users to:
 - Analyze complex, multi-layered data  
 - Seamlessly explore images with zoom & pan  
 - Learn from an AI-powered space guide  
-- Contribute to real-world science through **citizen tagging**  
-
+  
 ---
 
 ## ✨ Key Features  
@@ -18,7 +17,6 @@ It empowers users to:
 | **1. Explorable Navigator** | React Hooks (`useState`, `useRef`), CSS Transforms | Seamless Zoom and Pan functionality using mouse gestures, allowing users to navigate trillions of pixels easily. |
 | **2. Multi-Layer Views** | React State Management | Dynamically switches the image source between Visible (Hubble), Infrared (JWST), and X-ray (Chandra) perspectives of the same cosmic object. |
 | **3. AI Space Guide** | Gemini API, Node.js/Express | A real-time, context-aware chatbot that provides concise, astronomical information about stars, nebulae, and galaxies on demand. |
-| **4. Citizen Science Tagging** | MongoDB Atlas, Express Routing | Allows users to click on the image to place annotations (tag discoveries). Tags are stored in MongoDB and sync in real-time across all users. |
 
 ---
 
