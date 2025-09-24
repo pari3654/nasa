@@ -43,33 +43,33 @@ To run the application locally, you need to set up both the **frontend** and the
 
 ### 🔧 Installation  
 
-#### 1. Clone the Repository  
+####  Clone the Repository  
 ```
 git clone https://github.com/pari3654/nasa.git
 cd nasa
 ```
-#### 2. Backend Setup (server folder)  
+####  Backend Setup (server folder)  
 ```
 cd server
 npm install
 ```
 
-# Create a .env file with your keys
+#### Create a .env file with your keys
 ```
 GEMINI_API_KEY="your_api_key_here"
 ```
 
-# Run the backend
+#### Run the backend
 ```
 node server.js
 ```
 
-#### 3. Frontend Setup (space-explorer folder)  
+#### Frontend Setup (space-explorer folder)  
 ```
 cd ../space-explorer
 npm install
 npm run dev
 ```
-npm install
+
 npm run dev
 ```
